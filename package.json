@@ -1,0 +1,21 @@
+{
+	"name": "snowpack-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"dependencies": {
+		"snowpack": "^2.0.3"
+	},
+	"devDependencies": {
+		"@snowpack/app-scripts-vue": "^1.0.0",
+		"snowpack": "^2.0.3",
+		"vue": "^3.0.0-0"
+	},
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
